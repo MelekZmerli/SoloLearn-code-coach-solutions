@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8"/>
+        <style>
+            body{ 
+                text-align:center;
+                padding:150px;
+            }
+            fieldset,input{
+                border-radius:10px;
+                display:inline-block;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            #loginButton{
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <form action="/login.php">
+            <fieldset>
+                <legend><i><b>Sign in</b></i></legend>
+                <label for="uname">Username:</label>
+                <input type="text" id="uname" name="uname"><br><br>
+                <label for="passwrd">Password:  </label>
+                <input type="password" id="passwrd" name="passwrd"><br><br>
+                <input type="submit" id="loginButton" value="Login">  
+            </fieldset>
+        </form>
+        <p>Don't have an account? <a href="/signup.php">Sign up here</a></p> 
+        
+    </body>    
+</html>
