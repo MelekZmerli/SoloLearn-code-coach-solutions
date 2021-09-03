@@ -3,10 +3,10 @@
 int main(){
   int i,c;
   scanf("%d",&i);
-  c=(i*3)-21;
-  if(c<0)
+  c = (i*3)-21;
+  if (c<0)
     printf("Loss");
-  else if(c>0)
+  else if (c>0)
     printf("Profit");
   else
     print("Broke even");
