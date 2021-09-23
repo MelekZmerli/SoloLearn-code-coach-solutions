@@ -1,2 +1,2 @@
 let msg = readLine();
-print(String(msg.reversed()));
+print(String(msg!.reversed()));
