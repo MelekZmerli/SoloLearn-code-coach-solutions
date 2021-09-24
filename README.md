@@ -5,3 +5,4 @@ Problems are sorted by difficulty levels and each problem folder will contain so
 I'll start solving in C, C++, Java, Python as they're already in my bag of skills.
 
 *UPDATE: All code coach problems (pro edition not included) are now solved! Next step would be to solve the easy problems in all possible languages* 
+*UPDATE 2: The easy section problems are now solved in all possible languages! Medium section is next*
