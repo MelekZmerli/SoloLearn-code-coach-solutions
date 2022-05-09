@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-string input, res;
+string input;
 
 int main(){
     getline(cin,input);
