@@ -11,3 +11,4 @@ public class Program{
         }
         System.out.print("quiet");
     }
+}
