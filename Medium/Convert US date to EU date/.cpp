@@ -10,8 +10,8 @@ int main(){
     cin >> s;
     if( strchr(s,'/')){ // MM/DD/YYYY format
         int month;
-        sscanf(s,"%d/%d/%d",&day,&month,&year);
-        cout << month << '/' << day << '/' << year;
+        sscanf(s,"%d/%d/%d",&month,&day,&year);
+        cout << day << '/' << month << '/' << year;
     }
     else{   // Month Day, Year format
         string month;
