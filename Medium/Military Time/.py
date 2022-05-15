@@ -1,4 +1,3 @@
-
 OldDate = input()
 def converT(text):
     if text[5] == 'A':
